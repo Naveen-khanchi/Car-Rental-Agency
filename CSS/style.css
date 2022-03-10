@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    height: 60px;
+    color: #e74c3c !important;
+}
+
+.brand:hover{
+    text-decoration: none;
+}
+
+.abtn{
+    margin: 8px;
+    background-color: white;
+    border: 1px solid #e74c3c;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+.abtnfilled{
+    margin: 8px;
+    background-color: #e74c3c;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.abtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #e74c3c;
+}
+
+.abtnfilled:hover{
+    text-decoration: none;
+    color: #e74c3c;
+    background-color: white;
+}
+
+/****** Car Listing Page*********/
+.listingbanner{
+    background: url('../Images/11.jpg');
+    width: 100%;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.listingbanner h1{
+    font-weight: 900;
+    height: 70px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.car-list{
+    margin-top: 100px;
+}
+
+.car-list h1{
+    color: #e74c3c;
+    text-align: center;
+}
+
+.listing-card .row{
+    background: white;
+    border-radius: 15px;
+    margin: 10px 0px 30px 0px;
+    background-color: #e9ecef;
+}
+
+.listing-card{
+    margin-top: 100px !important;
+    margin: auto;
+}
+
+.listing-card .card-content{
+    box-shadow: 5px 5px 5px grey;
+    background-color: #e9ecef;
+    margin-bottom: 100px !important;
+}
+
+.listing-card .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.listing-card .btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
+.listing-card img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+input[type="date"]{
+    color: rgb(105, 105, 105);
+    border: 1px solid #ced4da;
+    padding: 0.300rem 0.75rem;
+    margin-top: 6px;
+    border-radius: 0.25rem;
+}
+
+
+
+/******* Index Page styling********/
+
+.container-fluid .banner{
+    background: url('../Images/9.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-centre h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.text-centre{
+    text-align: center;
+}
+
+.section-padding{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.banner-content {
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.banner-content h2{
+    margin: 30px 0px;
+    font-weight: 900;
+}
+
+/********* About us page styling************/
+.container-fluid .aboutbanner{
+    background: url('../Images/2.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutbanner .banner-content{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-transform: uppercase;
+}
+
+/********* Navbar Styling ************/
+
+.navbar{
+    font-family: 'Montserrat';
+    background-color: white !important;
+    padding: 20px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link,.navbar-brand{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e74c3c;
+}
+
+.btn-outline-success:hover{
+    background-color: #e74c3c;
+    color: white;
+    border-color: white;
+}
+
+.navbar .navbar-brand{
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #e74c3c !important;
+}
+
+.navbar-toggler{
+    background-color: white;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 8px 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:active{
+    border-bottom: 4px solid #e74c3c;
+    color: #e74c3c;
+}
+
+.navbar-nav .btn{
+    margin-right: 5px;
+}
+
+/******** Login page styling ***********/
+
+.login-form .row{
+    background: white;
+    border-radius: 15px;
+    margin: 10px 28px 30px 28px;
+    box-shadow: 12px 12px 22px grey;
+}   
+
+.login-form .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.login-form .logo{
+    font-family: 'Pacifico', cursive;
+    color: #e74c3c;
+}
+
+.login-form .btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
+.login-form img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-form .form-row{
+    margin: 25px 0px;
+    padding: 2px;
+}
+
+/*********** Registration type Form styling *********/
+
+.registration-type .jumbotron{
+    text-align: center;
+    background: white;
+    border-radius: 15px;
+    margin: 10px 28px 30px 28px;
+    box-shadow: 12px 12px 22px grey;
+}
+
+.registration-type h1{
+    color: #e74c3c;
+}
+
+
+/*********** Registration Form styling *********/
+
+.registration-form .row{
+    background: white;
+    border-radius: 15px;
+    margin: 10px 28px 30px 28px;
+    box-shadow: 12px 12px 22px grey;
+}   
+
+.registration-form .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.registration-form .logo{
+    font-family: 'Pacifico', cursive;
+    color: #e74c3c;
+}
+
+.registration-form .btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+
+.registration-form img{
+    height: 100%;
+    width: 100%;
+}
+
+.registration-form .form-content{
+    padding-left: 80px !important;
+}
+
+.registration-form .form-row{
+    margin: 15px 0px;
+    padding: 2px;
+}
+
+/*********** Footer Section ************/
+
+.panel-footer{
+    color: #e74c3c;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #22222218;
+    border-top: 0px;
+}
+
+
+#contact, #connect{
+    line-height: 2.5;
+}
+
+#connect{
+    text-align: center;
+}
+
+#contact>span, #connect>span{
+    font-size: 1.7em;
+}
+
+#site{
+    font-size: 35px;
+    padding: 5px;
+    margin: 70px 40px 20px 0px;
+    font-family: 'Pacifico';
+}
+
+#connect>button{
+    background-color: #e74c3c;
+    border: #e74c3c;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+#connect>a{
+    color: grey;
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+/****** Agency-Welcome page styling******/
+
+.vertical-nav{
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    margin-left: -17rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+
+.page-content{
+    width:100%;
+    transition: all 0.4sec;
+}
+
+#sidebar .nav-link{
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+#content.active{
+    width: 80%;
+    margin-left: 17rem;
+}
+
+#sidebar.active{
+    margin-left: 0rem;
+}
+
+.separator{
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+}
+
+.nav-link{
+    text-transform: capitalize;
+}
+
+.welcome h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-weight: 900;
+}
+
+/******* Add new car page styling *********/
+
+.add-car{
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.add-car .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #e74c3c;
+}
+
+.contact-form .form-field{
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus{
+    outline: none;
+}
+
+.contact-form .lable{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #e74c3c;
+    cursor: text;
+    text-transform: capitalize;
+}
+
+.contact-form .submit-btn{
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+/******* Manage Car Page Styling*******/
+
+.manage-car{
+    max-width: 1000px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.manage-car .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #e74c3c;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    margin: auto;
+}
+
+th,td{
+    border: 1px solid #f2f2f2;
+    padding: 15px 30px;
+    text-align: center;
+    color: grey;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+td{
+    font-size: 13px;
+}
+
+.fa{
+    font-size: 18px;
+}
+
+.fa-edit{ color: #63c76a;}
+.fa-trash{ color: #ff0000;}
+
+/******* For responsive styleing *******/
+
+@media(max-width:550px) {
+
+    /****** Login page ******/
+    .login-form .row{
+        margin: 10px 5px 30px 5px;
+        box-shadow: 12px 12px 22px grey;
+    }   
+
+    .login-form .form-row{
+        margin: 25px 0px;
+        padding: 2px;
+    }
+
+    .login-form .form-content{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .login-form{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    /****** Registraton page styling*******/
+    .registration-form .row{
+        margin: 10px 5px 30px 5px;
+        box-shadow: 12px 12px 22px grey;
+    }   
+
+    .registration-form .form-content{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    
+    .registration-form{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    /******* Registration type******/
+    .registration-type .jumbotron{
+        margin: 10px 0px 30px 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        box-shadow: 12px 12px 22px grey;
+    }
+
+    .registration-type .jumbotron button{
+        margin: 1px !important;
+    }
+
+    .navbar-brand{
+        font-family: 'Pacifico', cursive;
+        font-size: 1.8rem;
+        color: #e74c3c !important;
+    }
+
+    /******* Index page ********/
+
+    .banner-content {
+        color: white;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .listingbanner h1{
+        font-weight: 900;
+        height: 70px;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 12%;
+    }
+    
+    /****** Agency-Welcome page styling******/
+
+    .vertical-nav{
+        text-align: center;
+        min-width: 17rem;
+        width: 17rem;
+        height: 100vh;
+        margin-left: -17rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s;
+    }
+
+    #content.active{
+        width: 0px;
+        display: none;
+    }
+    
+    #sidebar.active{
+        margin-left: 0rem;
+        width: 100%;
+    }
+
+    .welcome h1{
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        font-weight: 900;
+    }
+}
